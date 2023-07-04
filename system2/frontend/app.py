@@ -61,10 +61,10 @@ def upload_to_filesystem():
         "ram_gb", "ssd", "hdd", "os_bit", "graphic_card_gb", "warranty", "latest_price", "old_price", "discount",
         "ratings", "reviews")
 
-        # kolumny które zawierają wartości int
+        # kolumny które zawierają wartości float
         columns_float = ("display_size", "star_rating")
 
-        #proste jak budowa cepa - jeśli kolumna w pliku nazywa się tak samo jak columns_int/columns_float to rzutujemy typ
+        #proste - jeśli kolumna w pliku nazywa się tak samo jak columns_int/columns_float to rzutujemy typ
         for j in o_json:
             for key, value in j.items():
                 if key in columns_int:
@@ -100,7 +100,7 @@ def json_from_db():
     #pobieramy dane z bazy
     r = requests.get(url="http://backend-api2:8080/show-records")
 
-    #zapisanie do pliku data.json. funkcja zwraca {laptops_list: val} więc bierzemy tylko wartosci
+    #zapisanie do pliku data.json. funkcja zwraca {laptops_list: val}, więc bierzemy tylko wartosci
     with open('downloads/data.json', 'w', encoding='utf-8') as f:
         json.dump(r.json()["laptops_list"], f, ensure_ascii=False, indent=4)
 
@@ -115,7 +115,6 @@ def download_xml():
     r = requests.get(url="http://backend-api2:8080/db-to-xml")
 
     #konwersja stringa do obiektu biblioteki lxml
-    #prościej - po prostu pobranie danych
     tree = etree.fromstring(r.json()["XML_laptops_list"][0])
     et = etree.ElementTree(tree)
 
@@ -136,7 +135,7 @@ def download_file(name):
         uploads, name, as_attachment=True
     )
 
-#funkcja do stworzenia tabeli 'laptops' jeśli nie istnieje
+#funkcja do stworzenia tabeli 'laptops', jeśli ona nie istnieje
 @app.route("/create-table")
 def create_empty_table():
     r = requests.get(url="http://backend-api2:8080/create-table")
@@ -165,50 +164,6 @@ def create_empty_table():
 			<button>sprobuj ponownie</button>
 		</a>
         ''')
-
-#stara funkcja dodania rekordów do bazy z jsona który był stringiem
-'''
-@app.route("/json-to-database")
-def call_to_backend():
-    input_json = """
-    [{
-    "brand": "ASUS",
-    "model": "Celeron",
-    "processor_brand": "Intel",
-    "processor_name": "Celeron Dual",
-    "processor_gnrtn": "Missing",
-    "ram_gb": 4,
-    "ram_type": "DDR4",
-    "ssd": 0,
-    "hdd": 1024,
-    "os": "Windows",
-    "os_bit": 64,
-    "graphic_card_gb": 0,
-    "weight": "Casual",
-    "display_size": 15.6,
-    "warranty": 1,
-    "Touchscreen": "No",
-    "msoffice": "No",
-    "latest_price": 23990,
-    "old_price": 26990,
-    "discount": 11,
-    "star_rating": 3.8,
-    "ratings": 15279,
-    "reviews": 1947
-  }]
-    """
-    #print(type(input_json))
-    #input_data = ast.literal_eval(input_json)
-    #print(type(input_data))
-
-    payload = '{"input_json": '+ input_json +'}'
-    print(payload)
-
-    #zapytanie rest (post) do kontenera
-    r = requests.post(url ="http://backend-api2:8080/add-records-json",
-                      data = payload)
-    return f"<p>{r.status_code}</p>"
-'''
 
 if __name__ == "__main__":
     app.run(debug=True)
