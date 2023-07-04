@@ -1,0 +1,2 @@
+fastapi == 0.61.0 #dla dokumentacji
+psycopg2 == 2.8.6 #do bazy

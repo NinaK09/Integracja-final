@@ -1,0 +1,54 @@
+version: "3.5"
+
+networks:
+  net:
+
+services:
+
+  postgres2:
+    image: postgres:latest
+    container_name: postgres2
+    environment:
+      POSTGRES_DB: computers
+      POSTGRES_USER: nina
+      POSTGRES_PASSWORD: TestTest01
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+    networks:
+      - net
+    ports:
+      - "4001:5432"
+    healthcheck:
+      test: [ "CMD", "pg_isready", "-U", "nina", "-d", "computers" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: on-failure
+
+  backend2:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: backend-api
+    container_name: backend-api2
+    depends_on:
+      - postgres2
+    networks:
+      - net
+    ports:
+      - "4002:8080"
+    restart: on-failure
+
+  frontend2:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: frontend-flask
+    container_name: frontend-flask2
+    depends_on:
+      - backend2
+    networks:
+      - net
+    ports:
+      - "4000:5000"
+    restart: on-failure

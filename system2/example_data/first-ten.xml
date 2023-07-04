@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<row>
+  <id>1</id>
+  <brand>ASUS</brand>
+  <model>VivoBook</model>
+  <processor_brand>Intel</processor_brand>
+  <processor_name>Core i3</processor_name>
+  <processor_gnrtn>10th</processor_gnrtn>
+  <ram_gb>8</ram_gb>
+  <ram_type>DDR4</ram_type>
+  <ssd>512</ssd>
+  <hdd>0</hdd>
+  <os>Windows</os>
+  <os_bit>64</os_bit>
+  <graphic_card_gb>0</graphic_card_gb>
+  <weight>Casual</weight>
+  <display_size>15.6</display_size>
+  <warranty>1</warranty>
+  <touchscreen>No</touchscreen>
+  <msoffice>No</msoffice>
+  <latest_price>37990</latest_price>
+  <old_price>50990</old_price>
+  <discount>25</discount>
+  <star_rating>4.3</star_rating>
+  <ratings>990</ratings>
+  <reviews>108</reviews>
+</row>
+
+<row>
+  <id>2</id>
+  <brand>ASUS</brand>
+  <model>Vivobook</model>
+  <processor_brand>Intel</processor_brand>
+  <processor_name>Core i3</processor_name>
+  <processor_gnrtn>10th</processor_gnrtn>
+  <ram_gb>8</ram_gb>
+  <ram_type>DDR4</ram_type>
+  <ssd>0</ssd>
+  <hdd>1024</hdd>
+  <os>Windows</os>
+  <os_bit>64</os_bit>
+  <graphic_card_gb>0</graphic_card_gb>
+  <weight>Casual</weight>
+  <display_size>14.1</display_size>
+  <warranty>1</warranty>
+  <touchscreen>No</touchscreen>
+  <msoffice>No</msoffice>
+  <latest_price>32890</latest_price>
+  <old_price>46990</old_price>
+  <discount>30</discount>
+  <star_rating>3.9</star_rating>
+  <ratings>28</ratings>
+  <reviews>4</reviews>
+</row>
+
+<row>
+  <id>3</id>
+  <brand>ASUS</brand>
+  <model>Celeron</model>
+  <processor_brand>Intel</processor_brand>
+  <processor_name>Celeron Dual</processor_name>
+  <processor_gnrtn>Missing</processor_gnrtn>
+  <ram_gb>4</ram_gb>
+  <ram_type>DDR4</ram_type>
+  <ssd>0</ssd>
+  <hdd>1024</hdd>
+  <os>Windows</os>
+  <os_bit>64</os_bit>
+  <graphic_card_gb>0</graphic_card_gb>
+  <weight>Casual</weight>
+  <display_size>15.6</display_size>
+  <warranty>1</warranty>
+  <touchscreen>No</touchscreen>
+  <msoffice>No</msoffice>
+  <latest_price>23990</latest_price>
+  <old_price>26990</old_price>
+  <discount>11</discount>
+  <star_rating>3.8</star_rating>
+  <ratings>15279</ratings>
+  <reviews>1947</reviews>
+</row>
+
+<row>
+  <id>4</id>
+  <brand>ASUS</brand>
+  <model>VivoBook</model>
+  <processor_brand>Intel</processor_brand>
+  <processor_name>Core i3</processor_name>
+  <processor_gnrtn>10th</processor_gnrtn>
+  <ram_gb>8</ram_gb>
+  <ram_type>DDR4</ram_type>
+  <ssd>512</ssd>
+  <hdd>0</hdd>
+  <os>Windows</os>
+  <os_bit>64</os_bit>
+  <graphic_card_gb>0</graphic_card_gb>
+  <weight>Casual</weight>
+  <display_size>15.6</display_size>
+  <warranty>1</warranty>
+  <touchscreen>No</touchscreen>
+  <msoffice>No</msoffice>
+  <latest_price>37990</latest_price>
+  <old_price>50990</old_price>
+  <discount>25</discount>
+  <star_rating>4.3</star_rating>
+  <ratings>990</ratings>
+  <reviews>108</reviews>
+</row>
+
+<row>
+  <id>5</id>
+  <brand>ASUS</brand>
+  <model>Vivobook</model>
+  <processor_brand>Intel</processor_brand>
+  <processor_name>Core i3</processor_name>
+  <processor_gnrtn>10th</processor_gnrtn>
+  <ram_gb>8</ram_gb>
+  <ram_type>DDR4</ram_type>
+  <ssd>0</ssd>
+  <hdd>1024</hdd>
+  <os>Windows</os>
+  <os_bit>64</os_bit>
+  <graphic_card_gb>0</graphic_card_gb>
+  <weight>Casual</weight>
+  <display_size>14.1</display_size>
+  <warranty>1</warranty>
+  <touchscreen>No</touchscreen>
+  <msoffice>No</msoffice>
+  <latest_price>32890</latest_price>
+  <old_price>46990</old_price>
+  <discount>30</discount>
+  <star_rating>3.9</star_rating>
+  <ratings>28</ratings>
+  <reviews>4</reviews>
+</row>
+
+<row>
+  <id>6</id>
+  <brand>ASUS</brand>
+  <model>VivoBook</model>
+  <processor_brand>Intel</processor_brand>
+  <processor_name>Core i3</processor_name>
+  <processor_gnrtn>10th</processor_gnrtn>
+  <ram_gb>8</ram_gb>
+  <ram_type>DDR4</ram_type>
+  <ssd>512</ssd>
+  <hdd>0</hdd>
+  <os>Windows</os>
+  <os_bit>64</os_bit>
+  <graphic_card_gb>0</graphic_card_gb>
+  <weight>Casual</weight>
+  <display_size>15.6</display_size>
+  <warranty>1</warranty>
+  <touchscreen>No</touchscreen>
+  <msoffice>No</msoffice>
+  <latest_price>37990</latest_price>
+  <old_price>50990</old_price>
+  <discount>25</discount>
+  <star_rating>4.3</star_rating>
+  <ratings>990</ratings>
+  <reviews>108</reviews>
+</row>
+
+<row>
+  <id>7</id>
+  <brand>ASUS</brand>
+  <model>Vivobook</model>
+  <processor_brand>Intel</processor_brand>
+  <processor_name>Core i3</processor_name>
+  <processor_gnrtn>10th</processor_gnrtn>
+  <ram_gb>8</ram_gb>
+  <ram_type>DDR4</ram_type>
+  <ssd>0</ssd>
+  <hdd>1024</hdd>
+  <os>Windows</os>
+  <os_bit>64</os_bit>
+  <graphic_card_gb>0</graphic_card_gb>
+  <weight>Casual</weight>
+  <display_size>14.1</display_size>
+  <warranty>1</warranty>
+  <touchscreen>No</touchscreen>
+  <msoffice>No</msoffice>
+  <latest_price>32890</latest_price>
+  <old_price>46990</old_price>
+  <discount>30</discount>
+  <star_rating>3.9</star_rating>
+  <ratings>28</ratings>
+  <reviews>4</reviews>
+</row>
+
+<row>
+  <id>8</id>
+  <brand>ASUS</brand>
+  <model>VivoBook</model>
+  <processor_brand>Intel</processor_brand>
+  <processor_name>Core i3</processor_name>
+  <processor_gnrtn>10th</processor_gnrtn>
+  <ram_gb>8</ram_gb>
+  <ram_type>DDR4</ram_type>
+  <ssd>512</ssd>
+  <hdd>0</hdd>
+  <os>Windows</os>
+  <os_bit>64</os_bit>
+  <graphic_card_gb>0</graphic_card_gb>
+  <weight>Casual</weight>
+  <display_size>15.6</display_size>
+  <warranty>1</warranty>
+  <touchscreen>No</touchscreen>
+  <msoffice>No</msoffice>
+  <latest_price>37990</latest_price>
+  <old_price>50990</old_price>
+  <discount>25</discount>
+  <star_rating>4.3</star_rating>
+  <ratings>990</ratings>
+  <reviews>108</reviews>
+</row>
+
+<row>
+  <id>9</id>
+  <brand>ASUS</brand>
+  <model>Vivobook</model>
+  <processor_brand>Intel</processor_brand>
+  <processor_name>Core i3</processor_name>
+  <processor_gnrtn>10th</processor_gnrtn>
+  <ram_gb>8</ram_gb>
+  <ram_type>DDR4</ram_type>
+  <ssd>0</ssd>
+  <hdd>1024</hdd>
+  <os>Windows</os>
+  <os_bit>64</os_bit>
+  <graphic_card_gb>0</graphic_card_gb>
+  <weight>Casual</weight>
+  <display_size>14.1</display_size>
+  <warranty>1</warranty>
+  <touchscreen>No</touchscreen>
+  <msoffice>No</msoffice>
+  <latest_price>32890</latest_price>
+  <old_price>46990</old_price>
+  <discount>30</discount>
+  <star_rating>3.9</star_rating>
+  <ratings>28</ratings>
+  <reviews>4</reviews>
+</row>
+
+<row>
+  <id>10</id>
+  <brand>HP</brand>
+  <model>Core</model>
+  <processor_brand>Intel</processor_brand>
+  <processor_name>Core i3</processor_name>
+  <processor_gnrtn>11th</processor_gnrtn>
+  <ram_gb>8</ram_gb>
+  <ram_type>DDR4</ram_type>
+  <ssd>512</ssd>
+  <hdd>0</hdd>
+  <os>Windows</os>
+  <os_bit>64</os_bit>
+  <graphic_card_gb>0</graphic_card_gb>
+  <weight>ThinNlight</weight>
+  <display_size>15.6</display_size>
+  <warranty>1</warranty>
+  <touchscreen>No</touchscreen>
+  <msoffice>Yes</msoffice>
+  <latest_price>42990</latest_price>
+  <old_price>57330</old_price>
+  <discount>25</discount>
+  <star_rating>4.4</star_rating>
+  <ratings>158</ratings>
+  <reviews>18</reviews>
+</row>
+</table>

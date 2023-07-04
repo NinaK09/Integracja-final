@@ -1,0 +1,5 @@
+#pomin katalog .idea i jego zawartosc
+.idea
+.idea/
+#pomin zawartość katalogu postgres_data
+system2/postgres_data/

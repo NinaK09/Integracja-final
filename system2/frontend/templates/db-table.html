@@ -1,0 +1,83 @@
+<html>
+   <body>
+   <a href='/download-json-db'>
+			<button>pobierz to w formie Json</button>
+		</a>
+		
+		<a href='/download-xml'>
+			<button>pobierz to w formie XML</button>
+		</a>
+		
+		<a href='/'>
+			<button>wroc do home</button>
+		</a>
+		</br></br>
+<table border="1">
+        <tr>
+                    <td> brand </td> 
+                    <td> model </td>
+					<td> processor_brand </td> 
+                    <td> processor_name </td>
+					<td> processor_gnrtn </td> 
+                    <td> ram_gb </td>
+					<td> ram_type </td> 
+                    <td> ssd </td>
+					<td> hdd </td> 
+                    <td> os </td>
+					<td> os_bit </td> 
+                    <td> graphic_card_gb </td>
+					<td> weight </td> 
+                    <td> display_size </td>
+					<td> warranty </td> 
+                    <td> Touchscreen </td>
+					<td> msoffice </td> 
+                    <td> latest_price </td>
+					<td> old_price </td> 
+                    <td> discount </td>
+					<td> star_rating </td> 
+                    <td> ratings </td>
+					<td> reviews </td> 
+                </tr>
+
+
+        {% for row in labels %}
+
+                <tr>
+                    <td>{{ row['brand'] }}</td> 
+                    <td>{{ row['model'] }}</td>
+					<td>{{ row['processor_brand'] }}</td> 
+                    <td>{{ row['processor_name'] }}</td>
+					<td>{{ row['processor_gnrtn'] }}</td> 
+                    <td>{{ row['ram_gb'] }}</td>
+					<td>{{ row['ram_type'] }}</td> 
+                    <td>{{ row['ssd'] }}</td>
+					<td>{{ row['hdd'] }}</td> 
+                    <td>{{ row['os'] }}</td>
+					<td>{{ row['os_bit'] }}</td> 
+                    <td>{{ row['graphic_card_gb'] }}</td>
+					<td>{{ row['weight'] }}</td> 
+                    <td>{{ row['display_size'] }}</td>
+					<td>{{ row['warranty'] }}</td> 
+                    <td>{{ row['Touchscreen'] }}</td>
+					<td>{{ row['msoffice'] }}</td> 
+                    <td>{{ row['latest_price'] }}</td>
+					<td>{{ row['old_price'] }}</td> 
+                    <td>{{ row['discount'] }}</td>
+					<td>{{ row['star_rating'] }}</td> 
+                    <td>{{ row['ratings'] }}</td>
+					<td>{{ row['reviews'] }}</td> 
+                </tr>
+
+        {% endfor %}
+</table>
+</br></br>
+
+	<p>Dane w formie Json:</p></br>
+	{{json}}
+	
+	</br></br>
+
+	<p>Dane w formie XML:</p></br>
+	{{xml}}
+   </body>
+</html>
